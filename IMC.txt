@@ -1,0 +1,21 @@
+Algoritmo "Atividade05-Exercício01"
+//Função para Calcular Índice de Massa Corporal (IMC)
+procedimento Calcula ( n1, n2: real)
+var
+Aux : real
+inicio
+Aux <- (n1 / n2^2 )
+Result <- Aux
+fimprocedimento
+var
+V1, V2, Result : real
+inicio
+escreva("Digite a sua Altura: ")
+leia(V1)
+escreval()
+escreva("Digite o seu Peso: ")
+leia(V2)
+escreval()
+Calcula(V2,V1)
+escreva("O seu índice de massa corporal (IMC) é: ", Result)
+fimalgoritmo
